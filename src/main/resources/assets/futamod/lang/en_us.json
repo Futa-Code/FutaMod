@@ -1,3 +1,7 @@
 {
-  "item.futamod.sorete": "Sorete"
+  "item.futamod.sorete": "Sorete",
+
+  "block.futamod.sorete_block": "Bloque de soretes",
+
+  "itemGroup.futatab": "Futa Mod"
 }

@@ -1,5 +1,6 @@
 package com.futas.futamod;
 
+import com.futas.futamod.block.ModBlocks;
 import com.futas.futamod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -25,6 +26,7 @@ public class FutaMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

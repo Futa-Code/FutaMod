@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:shapeless",
+  "ingredients": [
+    {
+      "item": "futamod:sorete_block"
+    }
+  ],
+  "result": {
+    "item": "futamod:sorete",
+    "count": 9
+  }
+}
